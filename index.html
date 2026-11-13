@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web 组 · 一起把想法做出来</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">WEB GROUP / 2026.11.13</p>
+    <h1>一起把想法<br>做成作品。</h1>
+    <p>从社团网页出发，学会记录每一次进步。</p>
+    <a class="button" href="#signup">体验报名演示 ↓</a>
+  </header>
+  <main>
+    <section aria-labelledby="intro">
+      <p class="eyebrow">01 / ABOUT US</p>
+      <h2 id="intro">我们是谁</h2>
+      <p>Web 组欢迎零基础同学。我们一起做小项目、检查 AI 改动、分享排错经验。</p>
+      <ul><li>用作品学习网页开发</li><li>用 Git 记录变化</li><li>和队友一起审查代码</li></ul>
+    </section>
+    <section aria-labelledby="activity">
+      <p class="eyebrow">02 / THIS WEEK</p>
+      <h2 id="activity">本周活动 · Git 与 GitHub 实战</h2>
+      <p>日期：2026-11-13 · 方式：腾讯会议 · 时长：75 分钟</p>
+      <!-- 第二次提交：只修改下面这一行文字，保留标签。 -->
+      <p id="notice">活动须知：请提前打开 VS Code。</p>
+    </section>
+    <section id="signup" aria-labelledby="signup-title">
+      <p class="eyebrow">03 / TRY IT</p>
+      <h2 id="signup-title">报名交互体验</h2>
+      <p>演示页面，报名数据不会自动提交给社团负责人。不填写姓名、电话或邮箱。</p>
+      <label for="direction">想体验的方向</label>
+      <select id="direction"><option>网页制作</option><option>界面设计</option><option>项目协作</option></select>
+      <button id="signup-button" type="button">生成演示报名回执</button>
+      <p id="result" role="status" aria-live="polite">尚未生成回执。仅当前页面显示，刷新后清空。</p>
+      <noscript>JavaScript 未开启，回执按钮不可用；仍可阅读全部活动信息。</noscript>
+    </section>
+  </main>
+  <footer>Web 组学习示例 · 不是真实报名系统</footer>
+</body>
+</html>
